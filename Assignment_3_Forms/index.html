@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <forms>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="Firstname">Firstname:</label><input type="text" id="Firstname"> <br> <br> 
+            <label for="Middlename">Middlename:</label><input type="text" id="Middlename"> <br> <br>
+            <label for="Lastname:">Lastname:</label><input type="text" id="Lastname"><br><br>
+            <label>Course:</label>
+            <select>
+                <option selected disabled value="Course">Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="M.Tech">M.Tech</option>
+            </select><br> <br>
+            <label>Gender :</label><br>
+            <input type="radio" name="gender">Male <br>
+            <input type="radio" name="gender">Female <br>
+            <input type="radio" name="gender">Other <br> <br>
+            
+            <label>DOB</label><input type="datetime-local"><br>
+            <label>Phone :</label><input style="width:40px" disabled  type="text" value="+91"> <input type="text">
+            <!---<input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> ----> <br> <br>
+            <label>Address</label><br>
+            <textarea cols="80" rows="5"></textarea><br><br>
+            <label for="email">Email:</label><input type="email" id="email"> <br><br>
+            <label for="pass">Password:</label><input type="password" id="pass"><br><br>
+            <label for="password">Re-type password:</label><input type="password" id="password"><br><br>
+            <input type="checkbox">Agree to terms and conditions<br><br>
+            <label>Choose File</label><input type="file"> <br> <br>
+            <label>Choose Color</label><input type="color"><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+
+
+        </fieldset>
+    </forms>
+    
+</body>
+</html>
